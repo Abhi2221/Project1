@@ -1,0 +1,37 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="tipcss.css">
+           
+    </head>
+    <body>
+        <div class="container">
+            <h1>Tip Calculator</h1>
+            <div id="calculator">
+                <form action="">
+                    <p id="para1">How much was your bill?</p>
+                    <label for="rupee">Rs.</label>
+                        <input id="rupee" type="text" placeholder="Bill Amount">
+                        <p id="para1">How was our service?</p>
+                    <select id="head">
+                        <option disabled selected value="0">--Choose an option--</option>
+                        <option value="0.15">15 &#37; &#45; Outstanding</option>
+                         <option value="0.10">10 &#37; &#45; Average</option>
+                          <option value="0.05">05 &#37; &#45; Normal</option>
+                    </select>
+                    <p id="para1">How many people are sharing this bill</p>
+                    <input id="people" type="number" placeholder="Number of people">
+               </form>
+                <button type="button" id="calculator1">Calculate!</button>
+            </div>
+            <div id="tip">
+                <sup>Rs.</sup><span id="Tip">0.00</span>
+                <small id="each">each</small>
+                
+                       
+            </div>
+        </div>
+        
+    </body>
+ <script type="text/javascript" src="tip.js"></script>
+</html>

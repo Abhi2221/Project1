@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(to right ,green ,red);
+    background-size: cover;
+}
+.container{
+    background-color: #fff;
+    width: 30%;
+    margin: auto;
+    margin-top: 7%;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+h1{
+    background-color: #1F030C;
+    color: #fff;
+    margin: -1.3rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#para1{
+    font-family: cursive;
+    font-weight: bold;
+    text-align: left;
+}
+#rupee{
+    font-size: 14px;
+    width: 60%;
+}
+#rupee:focus{
+    background: #fff;
+    border: 3px solid dodgerblue;
+    outline: none;
+}
+#head{
+    width: 60%;
+    height: 7%;
+    font-size: 19px;
+    padding-left: 23px;
+}
+#people{
+    width: 60%;
+    
+}
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background: red;
+    margin: 30px auto;
+    height: 50px;
+    width: 200px;
+    outline: none;
+}
+button:hover{
+    background: black;
+    color:#fff;
+}
+button:active{
+    position: relative;
+    top: 1px;
+}
+#tip{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: centre;
+}
+#tip:before{
+    content: "Tip amount";
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+}
+#tip sup{
+    font-size: 20px;
+    top: -18px;
+}
+#tip small{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
